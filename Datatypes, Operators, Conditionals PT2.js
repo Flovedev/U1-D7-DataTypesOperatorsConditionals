@@ -7,7 +7,7 @@
 
 /* WRITE YOUR ANSWER HERE */
 
-console.log("\nMale exercice:\n");
+console.log("\nEx 1:\n");
 
 let gender = "male";
 
@@ -21,7 +21,7 @@ console.log("Is male?", isMale);
 
 /* WRITE YOUR ANSWER HERE */
 
-console.log("\nNumber 8 exercice:\n");
+console.log("\nEx 2:\n");
 
 let number1 = 8;
 let number2 = 2;
@@ -42,7 +42,7 @@ console.log("Is the their addition or subtracion 8?", isSumSub8);
 
 /* WRITE YOUR ANSWER HERE */
 
-console.log("\nConcatenation exercice:\n");
+console.log("\nEx 3:\n");
 
 let word1 = "Example1";
 let word2 = "Example2";
@@ -59,11 +59,25 @@ console.log(concatenation);
 
 /* WRITE YOUR ANSWER HERE */
 
+console.log("\nEx 4:\n");
+
 let variable1 = 9
 let variable2 = 2
 let variable3 = 7
 
-
+if (variable1 > variable2 && variable2 > variable3) {
+    console.log(variable1, "is the highest number", variable2, "is the second highest number and", variable3, "is the lowest number");
+} else if (variable1 > variable3 && variable3 > variable2) {
+    console.log(variable1, "is the highest number", variable3, "is the second highest number and", variable2, "is the lowest number");
+} else if (variable2 > variable1 && variable1 > variable3) {
+    console.log(variable2, "is the highest number", variable1, "is the second highest number and", variable3, "is the lowest number");
+} else if (variable2 > variable3 && variable3 > variable1) {
+    console.log(variable2, "is the highest number", variable3, "is the second highest number and", variable2, "is the lowest number");
+} else if (variable3 > variable1 && variable1 > variable2) {
+    console.log(variable3, "is the highest number", variable1, "is the second highest number and", variable2, "is the lowest number");
+} else if (variable3 > variable2 && variable2 > variable1) {
+    console.log(variable3, "is the highest number", variable2, "is the second highest number and", variable1, "is the lowest number");
+}
 
 /*EX 5
  Write a piece of code for finding the average of two given integers.
@@ -71,18 +85,22 @@ let variable3 = 7
 
 /* WRITE YOUR ANSWER HERE */
 
+console.log("\nEx 5:\n");
+
 let averageNumber1 = 21;
 let averageNumber2 = 32;
 
 let averageResult = (averageNumber1 + averageNumber2) / 2;
 
-console.log("\nAverage Number\n", averageResult);
+console.log("Average Number\n", averageResult);
 
 /*EX 6
  Write a piece of code for finding the longest of two given strings.
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+console.log("\nEx 6:\n");
 
 let longString1 = "ExampleExampleExample"
 let longString2 = "ExampleExample"
@@ -98,6 +116,8 @@ if (longString1 > longString2) {
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+console.log("\nEx 7:\n");
 
 let integerOrNot = 3
 
@@ -116,12 +136,14 @@ if (integerOrNotCheck === "number") {
 
 /* WRITE YOUR ANSWER HERE */
 
+console.log("\nEx 8:\n");
+
 let numberpercent = 400;
 let percent = 20;
 
 let percentResult = numberpercent * percent / 100;
 
-console.log("\nPercent of the numbers given:", percentResult);
+console.log("Percent of the numbers given:", percentResult);
 
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.
@@ -129,10 +151,11 @@ console.log("\nPercent of the numbers given:", percentResult);
 
 /* WRITE YOUR ANSWER HERE */
 
+console.log("\nEx 9:\n");
+
 numberEOO = 8;
 
 let evencheck = (numberEOO % 2 === 0) ? "Even" : "Odd";
 
 
-console.log("\nNumber check:", evencheck);
-
+console.log("Number check:", evencheck);
