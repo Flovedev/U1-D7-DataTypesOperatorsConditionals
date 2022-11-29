@@ -66,17 +66,17 @@ let variable2 = 2
 let variable3 = 7
 
 if (variable1 > variable2 && variable2 > variable3) {
-    console.log(variable1, "is the highest number", variable2, "is the second highest number and", variable3, "is the lowest number");
+    console.log(variable1, "highest number", variable2, "middle number", variable3, "lowest number");
 } else if (variable1 > variable3 && variable3 > variable2) {
-    console.log(variable1, "is the highest number", variable3, "is the second highest number and", variable2, "is the lowest number");
+    console.log(variable1, "highest number", variable3, "middle number", variable2, "lowest number");
 } else if (variable2 > variable1 && variable1 > variable3) {
-    console.log(variable2, "is the highest number", variable1, "is the second highest number and", variable3, "is the lowest number");
+    console.log(variable2, "highest number", variable1, "middle number", variable3, "lowest number");
 } else if (variable2 > variable3 && variable3 > variable1) {
-    console.log(variable2, "is the highest number", variable3, "is the second highest number and", variable2, "is the lowest number");
+    console.log(variable2, "highest number", variable3, "middle number", variable2, "lowest number");
 } else if (variable3 > variable1 && variable1 > variable2) {
-    console.log(variable3, "is the highest number", variable1, "is the second highest number and", variable2, "is the lowest number");
+    console.log(variable3, "highest number", variable1, "middle number", variable2, "lowest number");
 } else if (variable3 > variable2 && variable2 > variable1) {
-    console.log(variable3, "is the highest number", variable2, "is the second highest number and", variable1, "is the lowest number");
+    console.log(variable3, "highest number", variable2, "middle number", variable1, "lowest number");
 }
 
 /*EX 5
