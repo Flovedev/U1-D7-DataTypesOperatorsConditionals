@@ -70,11 +70,13 @@ let subtracion = 12 - numeberx;
 
 /* WRITE YOUR ANSWER HERE */
 
-let name1 = "John";
+let name1 = "john";
 let name2 = "John";
 
 let verifyName = name1 === name2;
+let verifyName2 = name2.toLowerCase() === name1;
 console.log("Verify", verifyName);
+console.log("Verify", verifyName2);
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
@@ -85,6 +87,38 @@ console.log("Verify", verifyName);
 
 let variablex = 9;
 console.log(variablex);
+
+if (variablex === 1) {
+    console.log("one")
+}
+else if (variablex === 2) {
+    console.log("two")
+}
+else if (variablex === 3) {
+    console.log("tree")
+}
+else if (variablex === 4) {
+    console.log("four")
+}
+else if (variablex === 5) {
+    console.log("five")
+}
+else if (variablex === 6) {
+    console.log("six")
+}
+else if (variablex === 7) {
+    console.log("seven")
+}
+else if (variablex === 8) {
+    console.log("eigth")
+}
+else if (variablex === 9) {
+    console.log("nine")
+}
+else if (variablex === 10) {
+    console.log("ten")
+}
+
 
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
